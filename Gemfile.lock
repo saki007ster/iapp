@@ -95,4 +95,5 @@ DEPENDENCIES
   autotest-rails
   mysql2 (~> 0.2.6)
   rails (= 3.0.9)
+  rspec (>= 2.0.0.beta)
   rspec-rails (>= 2.0.0.beta)

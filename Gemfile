@@ -7,9 +7,13 @@ gem 'rails', '3.0.9'
 
 gem 'mysql2', '~> 0.2.6'
 group :test do
-    gem "rspec-rails",      ">= 2.0.0.beta"
+    gem "rspec",      ">= 2.0.0.beta"
     gem "autotest"
     gem "autotest-rails"
+end
+
+group :development do 
+  gem "rspec-rails",   ">= 2.0.0.beta"
 end
 # Use unicorn as the web server
 # gem 'unicorn'
